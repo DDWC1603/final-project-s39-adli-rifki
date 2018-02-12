@@ -3,18 +3,8 @@
 //Final Project Budget Expenses Question 3
 
 #include<iostream>
+#include"allfunctions.h"
 using namespace std;
-int getdays(int days);
-float getdepart(float departure);
-float getarriv(float Arrival);
-float getTicket(float ticketPrice);
-float CarRentalFare(float carRental);
-float TaxiFees(float TaxiFare);
-float HotelFees(float HotelFare);
-float getBreakfast(float breakfast);
-float getLunch(float lunch);
-float getDinner(float dinner);
-float getIdealBudget(float idealBudget);
 
 int main()
 {
@@ -41,18 +31,16 @@ int main()
         <<"Arrival Time (24hours): "<<Arrival<<endl
         <<"Ticket Price:RM "<<ticketPrice<<endl
         <<"Hotel Fare:RM "<<HotelFare<<endl
-        <<"Car Rental Fare:RM "<<carRental<<endl
+        <<"Car Rental Fare:RM "<<carRental<<endl;
       //  <<"Total Spent: "
         
         
         
-        if(totalSpent<=idealBudget)
+        /*if(totalSpent<=idealBudget)
         {
-        	cout<<"Congratulations You Saved "<<idealBudget-totalSpent
-		}
-   
-        
-
+        	cout<<"Congratulations You Saved "<<idealBudget-totalSpent;
+		}*/
+  
 }
 int getdays(int days)
 {	
