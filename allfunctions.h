@@ -1,3 +1,6 @@
+//Akmal Adli bin Ariffin A17DW0074
+//Rifki Redha bin Ahmad Rifae A17DW2273
+
 #include<iostream>
 
 int getdays(int days);
